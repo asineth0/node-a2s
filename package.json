@@ -1,0 +1,19 @@
+{
+  "name": "node-a2s",
+  "version": "1.0.0",
+  "description": "Steam Query API for Node",
+  "author": "Asineth <asineth@pm.me>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "typescript": "^5.1.6"
+  }
+}
